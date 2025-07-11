@@ -13,10 +13,10 @@ async def main():
 
     extracted_data = await keywords(transcript,llm)
 
-    with open("extracted_keywords.json","w") as f:
+    with open("raw_output.json","w") as f:
         json.dump(extracted_data,f, indent=4)
 
-    print("✅ Extracted details saved to extracted_keywords.json")
+    print("✅ Extracted details saved to raw_output.json")
 
 
 if __name__ == "__main__":

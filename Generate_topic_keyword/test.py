@@ -53,7 +53,7 @@ def parse_keywords_output(text: str):
 
 # === MAIN ===
 if __name__ == "__main__":
-    INPUT_PATH = "/home/aip-63/Desktop/Seo_Blog_Generator/Generate_topic_keyword/extracted_keywords.json"
+    INPUT_PATH = "/home/aip-63/Desktop/Seo_Blog_Generator/Generate_topic_keyword/raw_output.json"
     OUTPUT_PATH = "parsed_keywords.json"
 
     # Detect if the input is JSON with { "text": "..." }
