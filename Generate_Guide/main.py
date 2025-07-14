@@ -253,4 +253,4 @@ async def generate_guide() -> str:
     data = json.loads(Guide)
     with open("Guide.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
-    return Guide
+    return data

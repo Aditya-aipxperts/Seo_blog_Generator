@@ -135,8 +135,7 @@ async def generate_issue_troubleshooting() -> str:
     -> If no relevant troubleshooting content is found, output exactly this:
 
         {
-        "status": "Not Applicable",
-        "message": "The transcript did not include any common issues or troubleshooting content for [task/topic]."
+        "status": "Not Applicable"
         }
     
     -> If relevant troubleshooting / issue is found, output exactly this:
@@ -183,4 +182,4 @@ async def generate_issue_troubleshooting() -> str:
     data = json.loads(issue_troubleshoot)
     with open("issue_troubleshoot.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
-    return issue_troubleshoot
+    return data

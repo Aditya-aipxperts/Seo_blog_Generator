@@ -1,31 +1,31 @@
 {
-    "video_topic": "Nothing Phone 3 Review",
+    "video_topic": "Nothing Phone 3 Review: They Lied!",
     "primary_keywords": [
         "Nothing Phone 3",
         "Nothing Phone 3 review",
         "Nothing Phone 3 flagship",
-        "Nothing Phone 3 camera",
-        "Nothing Phone 3 battery"
+        "Snapdragon 8s Gen 4",
+        "Nothing Phone 3 battery life"
     ],
     "primary_justification": {
-        "Nothing Phone 3": "This is the central subject of the review, appearing prominently in the title and throughout the video. It is the core search term for anyone interested in this specific phone.",
-        "Nothing Phone 3 review": "Directly reflects the video's purpose as a review. Users searching for reviews of this phone will find this keyword highly relevant.",
-        "Nothing Phone 3 flagship": "Addresses the central argument of the video: whether the Nothing Phone 3 truly qualifies as a flagship device. Captures searches related to the phone's positioning in the market.",
-        "Nothing Phone 3 camera": "Highlights a specific feature (the camera) which is discussed in detail, appealing to users interested in the phone's photographic capabilities.",
-        "Nothing Phone 3 battery": "Highlights a specific feature (the battery) which is discussed in detail, appealing to users interested in the phone's battery life."
+        "Nothing Phone 3": "This is the primary subject of the video, directly relating to the phone being reviewed. Users searching for information about this specific phone will use this term.",
+        "Nothing Phone 3 review": "This is a common search query for people seeking evaluations and opinions on the phone, making it a highly relevant and targeted keyword.",
+        "Nothing Phone 3 flagship": "The video discusses whether the phone is a true flagship, so this keyword captures users interested in its classification and capabilities.",
+        "Snapdragon 8s Gen 4": "The video highlights the phone's processor, which is a key component affecting performance. Users researching the phone's specs will likely search for this.",
+        "Nothing Phone 3 battery life": "The video emphasizes the exceptional battery performance, making this a crucial keyword for users concerned about battery longevity."
     },
     "secondary_keywords": [
-        "Nothing Phone 3 price",
-        "Snapdragon 8s Gen 4",
-        "Nothing OS",
+        "Nothing Phone 3 camera",
         "Nothing Phone 3 display",
-        "best mid-range phone"
+        "mid-range vs flagship phones",
+        "best smartphone 2024",
+        "Nothing Phone 3 price"
     ],
     "secondary_justification": {
-        "Nothing Phone 3 price": "While the video doesn't dwell excessively on price, it's a crucial consideration for potential buyers and a common search query.",
-        "Snapdragon 8s Gen 4": "The specific chipset used is a significant detail discussed in the review, relevant to tech-savvy users researching the phone's performance.",
-        "Nothing OS": "The software experience is mentioned and is a differentiating factor for Nothing phones. Relevant to users interested in the unique software features.",
-        "Nothing Phone 3 display": "The display is described as high quality so is a key feature, this keyword captures users seeking information about the phone's screen performance.",
-        "best mid-range phone": "The review argues the phone is more mid-range than flagship, this keyword captures user searches that may not think of this as a flagship phone but could consider it as a high performing mid-range phone."
+        "Nothing Phone 3 camera": "The video briefly mentions the camera setup, so this keyword can attract users specifically interested in the phone's photography capabilities.",
+        "Nothing Phone 3 display": "The video describes the phone's display quality and features, making this a relevant keyword for users prioritizing screen performance.",
+        "mid-range vs flagship phones": "The core argument of the video revolves around comparing the Nothing Phone 3 to flagship devices, so this keyword broadens the search appeal.",
+        "best smartphone 2024": "This keyword targets users looking for recommendations and rankings of the best phones available, potentially capturing a broader audience.",
+        "Nothing Phone 3 price": "Since price is a major factor in the review's discussion of whether it's a true flagship, this keyword is relevant for users evaluating its value."
     }
 }
