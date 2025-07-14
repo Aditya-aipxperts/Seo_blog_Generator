@@ -93,4 +93,21 @@ Output 4: Justification Secondary:
 
 "Monday.com WorkForms step-by-step guide" emphasizes the structured, detailed nature of the content while maintaining alignment with the platform's specific terminology.
 
+Output format (strict JSON only, no extra text):
+
+{
+  "video_topic": "string",
+  "primary_keywords": ["keyword1", "keyword2", ...],
+  "primary_justification": {
+    "keyword1": "detailed justification",
+    ...
+  },
+  "secondary_keywords": ["keywordA", "keywordB", ...],
+  "secondary_justification": {
+    "keywordA": "detailed justification",
+    ...
+  }
+}
+
+
 """

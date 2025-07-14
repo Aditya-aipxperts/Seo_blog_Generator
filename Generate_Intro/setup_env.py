@@ -11,7 +11,7 @@ def setup_environment():
     #     raise EnvironmentError("OPENAI_API_KEY not found in .env file")
 
 def get_gemini_flash_model():
-    return ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=1)
+    return ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=1)
 
 def get_gpt_model(model_name="gpt-4o", temperature=1):
     return ChatOpenAI(model=model_name, temperature=temperature)

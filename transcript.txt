@@ -1,430 +1,269 @@
-hello all my name is Krishna and welcome
-to my YouTube channel so guys today in
-this particular video we are going to
-discuss about the basic differences
-between generative AI versus AI agents
-versus agentic AI now this is one of the
-most trending topics that is currently
-going on and it is necessary that you
-need to have your understanding very
-much clear when you are specifically
-working in all the specific topics okay
-so one by one we will try to understand
-about each and every topics that I have
-actually mentioned over here we'll go
-step by step okay so first thing is that
-I hope you may be knowing large language
-models okay you may be knowing about
-large image models also right so let's
-say that I'll also go ahead and write
-large image models when we talk about
-large language models or large image
-model these models are actually very
-huge models right these are like huge
-models bigger models right it can be of
-billions of parameters and they have
-trained with huge amount of data right
-this data that it is specifically used
-to train this model is huge so you may
-have seen various models like llama 3
-you may have been seeing OpenAI models
-right from GPT4 to GPT4 mini many many
-different models are there and these
-models are specifically trained with
-huge amount of data and at the end of
-the day all these particular models are
-generating what are they basically doing
-they're generating new content right
-generating new
-content now when we talk about
-generating new content the models can
-probably generate new
-images it can generate new text it can
-generate video frames it can generate
-anything as such right
-audio it can also generate audio right
-and it can also generate videos so I've
-written each and everything about over
-here right so here what this LLM is
-basically doing since it is trained with
-huge amount of data in short it is
-basically generating new content
-whenever we try to give any kind of
-input right if I say hey please generate
-a new image related to aentic AI so this
-LLA model it if it has that multimodel
-capabilities it will be able to generate
-that particular image or video whatever
-specific things we require whenever we
-talk in this specific way this is
-something related to generative AI okay
-so this is something related to
-generative AI right now when we say hey
-uh let's go ahead and build a generative
-AI application wherein we create a
-chatbot okay and that chatbot should be
-able to do this specific ch uh task
-wherein the main aim is generating new
-content you can definitely do it right
-so There we specifically say hey we are
-specifically working in generative AI
-applications right here the most
-important thing is that there's some few
-properties that everybody should keep in
-mind right whenever we talk about
-generative AI application these are
-specifically
-reactive okay reactive there is this
-word that we use which we basically say
-it as reactive now what does this
-basically reactive mean right see in
-order to work with this LLM models right
-we definitely have to write some kind of
-prompts okay prompts and based on this
-particular prompt this LLM model will
-generate new content this is really
-important to understand now what does
-this prompt basically means this prompt
-is just like some sentence where we
-specify something and we tell the LLM to
-behave in that way I may say hey that uh
-hey please try to uh act as a data
-scientist and take an interview for me
-right so I that is a kind of prompt that
-is a kind of instruction that I'm
-actually giving to the LLM model right
-so here the most important thing with
-respect to the generative AI content uh
-generative AI application is that
-obviously you will be having some kind
-of models LLM models LM models
-multimodel right along with these models
-we specifically write prompts right like
-how this particular LML model should be
-behaving and that is how it'll go ahead
-and generate the new content okay so
-this is with respect to the generative
-AI applications right here uh there are
-lot of different different kind of
-libraries there are libraries like
-langraph right there are libraries like
-lang chain which you can specifically
-use and you can get started with right
-lang chain there are different different
-libraries like let's say llama index
-llama index right if you don't want to
-go ahead and use this you can also go
-ahead and use grock grock also has a
-specific set of code or you can also go
-ahead and use OpenAI code in order to
-probably go ahead and start working and
-developing geni applications okay now
-this is one of the thing okay now the
-next two topics that we are specifically
-going to discuss about is something
-called as AI agents and agentic AI and
-this is super important right now
-because the thing that we work on right
-agentic AI application it is trending in
-every field people are thinking that how
-they can automate the entire complex
-task the entire workflow with the help
-of agent application and obviously bring
-human feedback in between them okay now
-let's go ahead and discuss about this
-and I hope I have already made a video
-related to generative way i have
-developed so many different videos from
-lang chain to lang graph you can
-definitely go ahead and watch
-okay now let's go ahead and discuss
-about the second thing which is nothing
-but the second category that we're going
-to focus on is AI
-agents versus agentic
-AI versus agentic
-AI now people do think that AI agents
-and agentic AI one and the same but it
-is not like that okay so here just
-please focus on for the next 10 minutes
-because I'm going to explain each and
-everything that you really need to
-understand and that is how you'll be
-able to understand between what is the
-basic difference between AI agents and
-agent AI okay now let's say that I have
-some kind of LLMs okay so let's say and
-at all these places LLM is the most
-important thing right because LLM is
-something that will be acting like an AI
-agent it can act like an AI agent it can
-also work in an agentic AI application
-okay and it will it will be very
-important how this AI agents is
-different when compared to the LLM also
-okay so let's say that I have a specific
-LLM okay and now this LLM can be any
-model okay let's let's consider that it
-is it is some model that we are going to
-use from graph it can be lama 3 we are
-using this specific model okay now you
-know that all these LLM or LM models
-they're trained with some specific past
-data okay they don't have like let's say
-if I ask this particular LLM hey what is
-the news for today or hey or who won
-this particular IPL match between this
-and this like let's say Bangalore is
-going to happen have some matches
-tomorrow or today if it has right and
-LLM will not know the result because
-it's not connected to the internet okay
-so in that kind of scenario Whenever I
-ask this particular question the LLM
-will not be able to give an output to us
-okay obviously it will not be able to
-give because it does not have that
-specific information now this is one
-major disadvantage of LLM right yes LLM
-will be able to generate new content
-these models will be able to generate
-the new content but what about the
-current information okay it will not be
-able to give you right let's say that
-I'm going to ask some specific
-information of a company obviously this
-LLM will not be trained with that
-company data because the company data
-will be private to that company itself
-right so that way also that LLM will not
-be able to give you that unless and
-until it is connected to some kind of
-external database or external data
-source this is just one example now what
-is basically happening is that as soon
-as I asked a question hey who won this
-particular match within RCB or any other
-place any other um any other team that
-happened today it will not be able to
-give you the output so what it will be
-dependent on it will be dependent on the
-third party source let's say there is
-one third party source I will consider
-in this particular scenario i will just
-go ahead and connect it to some kind of
-database okay let's say one of the data
-source is something called as taby i
-will go ahead and write tabi so if you
-don't know about tabi it provides you
-some kind of internet search okay it you
-can use that particular API you can
-write this specific wrapper and you can
-probably go ahead and write this now the
-question arises how this llm is
-basically going to call this tavly API
-now there is one very important property
-if you're learning lang chain or lang
-graph any of the specific libraries
-there is a concept of something called
-as tool call tool
-call okay tool call now what is this
-tool call let's say that if the LLM is
-not able to provide the response for
-this particular input it will keep on
-looking for external things that will be
-able to handle this particular input now
-in this particular case when I ask the
-input saying that hey what is the
-current news what is the current news
-for this specific date that is today's
-date the LLM will not be able to give
-the answer so the LLM will look for
-whether it is connected to any
-third-party APIs third party APIs or
-data source from which I will be able to
-get this kind of information so that is
-where it will be making the specific
-tool call okay it will be making the
-specific tool call now this tool call
-will be something like this the tool
-call will be made and based on this I
-will be getting a response okay I'll be
-getting a response now the as soon as
-the LLM made this tool call the it got
-this specific response so this is my
-request and this is my response okay
-this is my response and as soon as I got
-the response the LLM is smart enough to
-finally summarize that particular output
-uh that response and give you the output
-and this is what I'm actually looking
-for okay
-now you need to really understand over
-here the kind of task that is happening
-right a request is going I'm getting the
-information I'm getting giving back the
-response this is basically happening by
-an AI agent just a single AI agent I can
-consider this as an AI agent okay here
-my main aim is that I have asked an
-input saying that hey give me the some
-current information about today AI news
-I really want to see for this particular
-date AI news which my LLM was not able
-to do it so what it has done is that the
-LLM is smart enough to understand which
-tool to probably call and based on this
-tool call functional it is calling this
-and it is getting the response so this
-is a specific task okay and this task is
-basically solved by this tavly okay
-tavly which is responsible for the
-internet search so this task can be
-considered as an AI agent okay for a
-specific task we have defined this okay
-very simple definition okay so for a
-specific task we are able to probably go
-ahead and call this and we are getting
-the response now the question rises now
-the question
-rises then what is agentic AI ai agents
-have understood okay fine for a specific
-task I'm calling something from the LLM
-right the LM is responsible for making
-that tool call and getting the output
-and summarizing the output and giving it
-over here here also we can add the
-prompt here also once I get the response
-I can add the prompt and based on that I
-can summarize the output i can do that
-okay but this is only for one kind of
-task now if I talk about agentic AI okay
-and for discussing about the agentic AI
-application let's consider that let's
-consider that I have a task and this
-task is nothing but let's consider I
-want to probably convert a YT video that
-I really want to upload to a
-blog
-okay to a blog and now to convert a YT
-video YouTube video into a blog let's
-say that I have been uploading so many
-videos just imagine if I just create an
-agenti system which takes my YouTube
-video and convert that into a blog and
-publish it in my website would it will
-that not be good it will definitely be
-good right now here if I probably see I
-can divide this into multiple subtask
-first of all I will take this YT video i
-will convert I will take the transcript
-from the YT video transcript from the YT
-video okay after considering the
-transcript from this my second task will
-be creating
-title creating title okay third it can
-be creating
-description okay so this will be my
-third task creating
-description and my fourth task will be
-writing the
-conclusion let's say so I've defined
-this task into four different task right
-four different tasks now for the same
-task don't you think converting a
-YT YT video into transcript I can create
-one AI agent then similarly for my
-second AI agent I can basically take
-this transcript
-and this AI agent should be able to give
-me the title yeah yeah and just to show
-you how these things will happen don't
-you think I can just go ahead see this
-okay see this magic okay so so what what
-I will be doing is that my first task
-will be that this AI agent will be
-responsible in getting me the transcript
-from my YouTube video okay this AI agent
-will be responsible for creating the
-title from the transcript that I get
-okay then my next agent over here which
-will be parallelly will be
-responsible to probably create the
-description from this particular
-transcript yeah and finally don't you
-think I can have one more one
-more AI agent which will be responsible
-in creating the conclusion right now
-here this is my AI agent one let's
-consider this okay so this is my AI
-agent
-one this is my AI agent
-2 this is my AI agent three and this is
-my AI agent
-4 each and every agent can use LLM it
-can use
-prompt to perform its task each each
-here it can or it cannot it is not
-composite it needs to use all the LLM
-but since we are working with respect to
-text related things then obviously we
-can use LLM okay for now this is just
-like a one kind of workflow so this
-workflow goes on like this right so
-first of all I give my YT video
-URL YT video URL then this agent is
-responsible in taking from this and
-giving the output a
-transcript now this transcript is sent
-to all the agents and finally we can
-combine all these
-outputs and give my final
-blog right so what does this basically
-mean before an AI agent only used to do
-one task in an agentic AI system so this
-is my entire complex workflow with
-respect to my agentic AI system and this
-is performing this entire task together
-here every agent is communicating with
-each other right i can add one more
-thing over here i can add human
-feedback human feedback also over
-here so here what is basically happening
-ai agents are communicating with each
-other
-right i can also make sure to probably
-before this AI agent let's say this
-agent is responsible in probably
-creating a description for creating a
-description it also wants the title so
-it will just go ahead this AI agent 2
-whatever output it is creating for the
-title it will give it to the agent 3 and
-this will take that information and do
-this so internally you'll be able to see
-we can also make this agent communicate
-with each other to solve a complex
-workflow and finally achieve a goal
-right so just to understand what is the
-difference between AI agents versus
-agentic AI here AI agent is doing only
-one task in an agentic AI system this AI
-agents will be collaborating with each
-other this is really important
-collaborating
-collaborating with each
-other to solve a
-goal this is really really important to
-understand so I hope you understood this
-particular video i hope you liked this
-particular video this was the basic
-differences between generative AI versus
-AI agent versus agentic AI and I hope
-you are able to understand this okay
-similar kind of videos I'm also going to
-come up in this specific series so that
-you get your fundamental rights i hope
-you like this particular video this was
-it from my side i'll see you in the next
-video have a great day thank you and all
-take care bye-bye
+Nothing Phone 3 Review: They Lied!
+(funky upbeat music)
+- This is the Nothing Phone 3
+and yeah, it's ugly.
+(funky music)
+You know, people say beauty is in the eye
+of the beholder and stuff like that.
+I get it. You can find
+beauty in anything, for sure.
+But also, you know,
+there's a nice alignment
+to things that feels good.
+And you know, when things are,
+when things are where
+you expect them to be,
+doesn't that feel better?
+Okay. All right, carcinisation.
+I learned about this recently.
+This is a strange and
+odd but funny phenomenon
+and evolutionary biology where a bunch
+of undersea crustaceans have
+all slowly evolved towards
+the same, flat, robust, crab-like shape
+because it seems to be
+the ideal form factor
+for surviving in the ocean.
+Oversimplified, it feels
+like everything down there is
+evolving towards a crab.
+And look at all these crabs,
+lots of smartphones today
+basically look the same.
+So when something that comes
+along looks a little different,
+well it's gonna feel weird, isn't it?
+But hey, maybe someone's
+into the layered glass look
+with the text in various places.
+Maybe you're into the
+red dot turning into a
+functional record light.
+Maybe you're into a bit of a lobster.
+Real talk though, it feels
+like every few months Nothing
+comes out with a new
+product that looks crazy
+and people hate on all the pictures
+on the internet 'cause they look weird.
+And then two months later
+we're all used to it
+and we forget about the looks
+and we can focus on the product itself.
+So let's just skip all that
+and focus on the product.
+This is what Nothing is calling
+their first true flagship,
+which is what you would
+say if you're Nothing
+and you're charging $799 for a
+phone for the first time ever
+after rolling around in the budget
+and mid-range space for a few years.
+But I've been using this
+phone for the better part
+of the last week and I'm gonna disagree
+with the whole premise here actually.
+This is no more of a
+flagship phone than any
+of Nothing's previous phones.
+Now are they lying to us?
+Eh, not exactly but kind of. Hear me out.
+799 is the same price
+as a Samsung Galaxy S25
+or the Pixel 9, or right
+underneath the iPhone 16.
+Like they're competing against
+bonafide flagships from mega
+companies with basically unlimited money.
+And part of what we've come
+to expect from phones in this
+class is basically giving
+us the best available stuff.
+Like it's kind of this unspoken rule,
+but if you're spending
+this much, you deserve
+to just get the best parts, right?
+That's why it's been so easy for me
+to rag on like the Pixel in the past
+for not having the best performance
+or the iPhone for not having
+a high refresh rate display.
+So this Nothing Phone 3,
+it's certainly dressed up like a flagship
+and it is the most flagship
+yet of any Nothing phone.
+It is huge.
+It's got this super bright,
+high refresh rate, OLED display.
+It has a massive new
+silicon carbon battery,
+new triple 50 megapixel
+cameras, IP 68 certification,
+up to 16 gigs of RAM.
+Like it's got all the makings
+of what could be a flagship.
+But when you peel back the
+mask, just a little bit,
+like right under the surface,
+it's the same exact strategy
+that Nothing has been running on all their
+previous phones in the past.
+The playbook is
+to just cut back just a little
+bit from the highest end
+stuff in ways that hopefully
+you, the buyer, don't notice.
+And it still feels like a flagship,
+but that allows 'em to cut costs
+and undercut the competition a little bit.
+So it works. It's not a bad strategy.
+It's allowed 'em to make
+great phones in the past,
+but it's just harder to sell
+that strategy at this price.
+So for starters, the chip inside, right?
+It's not the expensive,
+proven, powerful flagship
+Snapdragon 8 Elite chip.
+This is running the
+Snapdragon 8s Gen 4 instead.
+It's one of the first phones
+we've seen using this chip.
+And to be fair, it is much
+better than anything we've seen
+in any previous Nothing phone.
+It's a four nanometer chip,
+it's something like 40% better CPU
+and like 90% better GPU than
+the chip in the two year-old
+Nothing Phone 2.
+The phone is zippy and smooth as hell,
+basically all the time.
+And I'll get to the software
+experience in a second.
+But is it the best available?
+Well, technically no.
+The Snapdragon 8 Elite still smokes this.
+You can see benchmark
+scores, it's pretty clear
+that's still the flagship chip.
+Now you as the user
+might never notice that.
+In fact you probably wouldn't
+if you just used the phone
+side by side in a lot of
+random, normal activities.
+But if you happen to get into
+graphically intensive gaming
+or the most intense tasks,
+that's what separates a flagship
+from an upper mid-range chip.
+So for some context, some
+other phones using this chip,
+the Poco F7 and the Iqoo Neo 10,
+both of these are sub $500 phones.
+I also think they were
+very clever pairing it up
+with 12 gigs of RAM and
+256 gigs of storage base.
+It's fast Ram, it's UFS 4.0
+and then the upgraded
+version for 899 is 16 gigs
+of RAM and half a terabyte.
+Awesome to see that. But
+there is no 8 128 version.
+And I think if they did make one,
+that would probably be
+like 699, but they didn't.
+Now when we get to the outside
+of this phone, there is this,
+again, huge new AMOLED display.
+Surely it's a flagship display, right?
+It's gigantic.
+It's 6.67 inches corner to corner
+with perfectly even
+bezels all the way around,
+that takes extra work.
+It's a gorgeous AMOLED,
+nice color reproduction
+and it's also, it's a
+good amount over 1080P.
+It's nice and sharp, smooth
+with that dynamic refresh
+rate up to 120 hertz
+and it gets crazy bright,
+1600 nits outdoors,
+4,500 nits peak brightness with HDR.
+So the numbers on paper go crazy
+and it's just, it's such
+a nice screen to look at.
+I've loved using it. So
+what's the catch, Marques?
+Well one, you would
+literally never know this
+unless you check the spec sheet,
+but the glass protecting
+the front of this display,
+it's Gorilla Glass 7i,
+and that is a mid-range
+glass in their lineup
+where you might see flagships
+using the more durable
+Gorilla Glass Victus or Victus 2.
+And normally I wouldn't even bring that up
+but that's definitely something
+to consider on a phone
+that is meant to spend a
+lot of its time face down.
+And then another thing, there are a lot
+of like really nice, subtle
+things that go into this screen.
+Like it has a 1,000
+hertz touch sample rate,
+so it's even more responsive
+than the phone too.
+It also has 2160 hertz PWM dimming
+and it also has a very acceptable
+optical fingerprint reader
+down near the bottom.
+But it's also an LTPS display,
+instead of the most premium LTPO.
+And all that really means
+in practice is instead
+of varying a refresh rate
+from one to 120 hertz,
+it can go from 30 to 120 hertz.
+You would never notice, but
+it does mean a little bit
+worse power efficiency.
+I'll tell you what though, it
+can actually absolutely handle
+the slightly worse power efficiency
+because the battery in
+this phone is elite.
+It's marketed as a 5100
+50 milliamp power battery,
+but according to Nothing
+and it gets complicated
+but it's actually rated at a
+5,500 milliamp power battery.
+It's silicon carbon, it
+charges extra fast at 65 watts.
+It supports wireless charging,
+reverse wireless charging,
+reverse wired charging.
+It's great.
+It sips power in standby
+and it's genuinely a two day
+phone if you want it to be,
+even without the more
+efficient Snapdragon 8 Elite.
+So honestly flagship battery for sure.
+So then, okay, what about the cameras?
+Triple 50 megapixel cameras
+feels pretty flagship.
+And you know what, again, it is closer
+to a flagship than any previous
+Nothing phone has ever been,
