@@ -52,7 +52,7 @@ def parse_keywords_output(text: str):
     }
 
 # === MAIN ===
-if __name__ == "__main__":
+async def parse_keywords_output_main() -> dict:
     INPUT_PATH = "/home/aip-63/Desktop/Seo_Blog_Generator/Generate_topic_keyword/raw_output.json"
     OUTPUT_PATH = "parsed_keywords.json"
 
@@ -77,3 +77,5 @@ if __name__ == "__main__":
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Extraction complete. Saved to {OUTPUT_PATH}")
+
+    return result

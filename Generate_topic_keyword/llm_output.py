@@ -5,9 +5,9 @@ from setup_env import setup_environment, get_gemini_flash_model
 setup_environment()
 llm = get_gemini_flash_model()
 
-from ask_ai import keywords
+from Generate_topic_keyword.ask_ai import keywords
 
-async def main():
+async def generate_topic_keyword():
     with open("/home/aip-63/Desktop/Seo_Blog_Generator/transcript.txt", "r") as f:
         transcript = f.read()
 
@@ -19,5 +19,5 @@ async def main():
     print("✅ Extracted details saved to raw_output.json")
 
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     asyncio.run(main())
