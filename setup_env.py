@@ -7,6 +7,8 @@ def setup_environment():
     load_dotenv()
     if not os.getenv("GOOGLE_API_KEY"):
         raise EnvironmentError("GOOGLE_API_KEY not found in .env file")
+    if not os.getenv("YOUTUBE_API_KEY"):
+        raise EnvironmentError("YOUTUBE_API_KEY not found in .env file")
     # if not os.getenv("OPENAI_API_KEY"):
     #     raise EnvironmentError("OPENAI_API_KEY not found in .env file")
 
