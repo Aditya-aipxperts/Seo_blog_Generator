@@ -1,31 +1,31 @@
 {
-    "video_topic": "Nothing Phone 3 Review: They Lied!",
+    "video_topic": "The story of Swish, a 10-minute food delivery platform in India",
     "primary_keywords": [
-        "Nothing Phone 3",
-        "Nothing Phone 3 review",
-        "Nothing Phone 3 flagship",
-        "Snapdragon 8s Gen 4",
-        "Nothing Phone 3 battery life"
+        "10-minute food delivery",
+        "Swish food delivery",
+        "cloud kitchen delivery India",
+        "fast food delivery India",
+        "food delivery startup India"
     ],
     "primary_justification": {
-        "Nothing Phone 3": "This is the primary subject of the video, directly relating to the phone being reviewed. Users searching for information about this specific phone will use this term.",
-        "Nothing Phone 3 review": "This is a common search query for people seeking evaluations and opinions on the phone, making it a highly relevant and targeted keyword.",
-        "Nothing Phone 3 flagship": "The video discusses whether the phone is a true flagship, so this keyword captures users interested in its classification and capabilities.",
-        "Snapdragon 8s Gen 4": "The video highlights the phone's processor, which is a key component affecting performance. Users researching the phone's specs will likely search for this.",
-        "Nothing Phone 3 battery life": "The video emphasizes the exceptional battery performance, making this a crucial keyword for users concerned about battery longevity."
+        "10-minute food delivery": "This keyword directly reflects the core value proposition of Swish and is prominently featured in the transcript. It targets users specifically looking for ultra-fast food delivery services.",
+        "Swish food delivery": "This keyword incorporates the brand name and the core service, allowing users searching specifically for Swish to find the video. It’s highly relevant to viewers interested in this particular company.",
+        "cloud kitchen delivery India": "Addresses the cloud kitchen model highlighted in the video as well as its location in India. Catches users interested in this business model and food in India. Catches users who are interested in new restaurants but want delivery.",
+        "fast food delivery India": "Fast Food is a keyword that will be used by searchers and this video is about a company that will deliver fast food. Focuses on the location of the company.",
+        "food delivery startup India": "Startup and India are also important themes from the video. Targets users interested in the startup ecosystem in India and new companies in the food delivery space."
     },
     "secondary_keywords": [
-        "Nothing Phone 3 camera",
-        "Nothing Phone 3 display",
-        "mid-range vs flagship phones",
-        "best smartphone 2024",
-        "Nothing Phone 3 price"
+        "on-demand food delivery",
+        "food delivery business model",
+        "quick commerce India",
+        "Pillow Fund startup experience",
+        "food preparation and delivery"
     ],
     "secondary_justification": {
-        "Nothing Phone 3 camera": "The video briefly mentions the camera setup, so this keyword can attract users specifically interested in the phone's photography capabilities.",
-        "Nothing Phone 3 display": "The video describes the phone's display quality and features, making this a relevant keyword for users prioritizing screen performance.",
-        "mid-range vs flagship phones": "The core argument of the video revolves around comparing the Nothing Phone 3 to flagship devices, so this keyword broadens the search appeal.",
-        "best smartphone 2024": "This keyword targets users looking for recommendations and rankings of the best phones available, potentially capturing a broader audience.",
-        "Nothing Phone 3 price": "Since price is a major factor in the review's discussion of whether it's a true flagship, this keyword is relevant for users evaluating its value."
+        "on-demand food delivery": "Expands on the primary keyword by incorporating a related concept. While '10-minute delivery' is very specific, 'on-demand' captures users who are looking for quick and convenient food options in general.",
+        "food delivery business model": "Broadens the scope to include viewers interested in the business aspect of food delivery. This caters to entrepreneurs and industry professionals.",
+        "quick commerce India": "Aligns the video with the broader trend of quick commerce in India, attracting viewers interested in this emerging market trend. This relates to how fast the company promises to deliver.",
+        "Pillow Fund startup experience": "Incorporates a detail about the founders' background, potentially attracting viewers interested in their previous experiences or the Pillow Fund ecosystem. Shows how the founders were previously experienced.",
+        "food preparation and delivery": "Adds a keyword related to the full-stack solution mentioned in the transcript. It highlights the video's relevance to users interested in the entire process, not just the delivery aspect."
     }
 }

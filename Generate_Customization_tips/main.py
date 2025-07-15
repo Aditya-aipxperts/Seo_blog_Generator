@@ -6,7 +6,7 @@ setup_environment()
 llm = get_gemini_flash_model()
 
 async def generate_customization_tips() -> str:
-    with open("combined_output1.json","r",encoding="utf-8") as f:
+    with open("combined_data1.json","r",encoding="utf-8") as f:
         combined_data = json.load(f)
 
     prompt = """

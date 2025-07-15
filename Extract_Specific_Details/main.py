@@ -19,9 +19,8 @@ from Extract_Specific_Details.agents.audience_agent import run_audience_spec
 from Extract_Specific_Details.agents.links_ref_agent import run_links_reference
 from Extract_Specific_Details.agents.conditional_logic_agent import run_conditional_logic
 
-async def extract_specific_details() -> dict:
-    with open("/home/aip-63/Desktop/Seo_Blog_Generator/transcript.txt", "r") as f:
-        transcript = f.read()
+async def extract_specific_details(transcript) -> dict:
+    
     
     error_section = await run_error_handling(transcript, llm)
     example_section = await run_example_reference(transcript, llm)
