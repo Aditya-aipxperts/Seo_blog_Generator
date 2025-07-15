@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 async def main():
-    channel_url = input("Enter the YouTube channel URL: ")
+    channel_url = input("Enter the YouTube URL: ")
     try:
         channel_id = extract_channel_id(channel_url)
         print(f"✅ Channel ID: {channel_id}")
