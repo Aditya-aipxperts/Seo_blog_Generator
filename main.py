@@ -7,6 +7,8 @@ from Generate_issue_troubleshoot.main import generate_issue_troubleshooting
 from Generate_Conclusion.main import generate_conclusion
 from Generate_CTA.main import generate_cta
 from Generate_Customization_tips.main import generate_customization_tips
+from Domain_aligned.main import domain_aligned
+from Rewrite_Blog.main import rewrite_blog
 import asyncio
 import json
 import logging
@@ -25,6 +27,8 @@ logger = logging.getLogger(__name__)
 
 async def main():
     channel_url = input("Enter the YouTube URL: ")
+    Domain_url = input("Enter your Domain URL: ")
+    Raw_blog = input("Enter the raw blog: ")
     try:
         channel_id = extract_channel_id(channel_url)
         print(f"✅ Channel ID: {channel_id}")
@@ -80,5 +84,8 @@ async def main():
         json.dump(combined_data2, f, indent=4)
     logger.info("Final output saved to combined_data2.json")
 
+    Domain_aligned = await domain_aligned(Domain_url, transcript)
+    Blog = await rewrite_blog(Raw_blog)
+    logger.info("Blog saved to FINAL_BLOG.json")
 if __name__ == "__main__":
     asyncio.run(main())

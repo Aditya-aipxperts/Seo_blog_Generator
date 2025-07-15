@@ -154,3 +154,73 @@
 2025-07-15 10:51:13,901 [INFO] Topic keyword generated
 2025-07-15 10:51:13,901 [INFO] Final output saved to combined_data1.json
 2025-07-15 10:51:27,507 [INFO] Final output saved to combined_data2.json
+2025-07-15 13:05:17,380 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:05:17,380 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:05:17,380 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:05:18,581 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:05:18,661 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:05:18,661 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:05:18,662 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:05:18,782 [INFO] ✨ Agent initialization complete
+2025-07-15 13:05:18,782 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:05:18,783 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:05:18,783 [INFO] 👣 Step 1/100
+2025-07-15 13:05:21,165 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:05:21,166 [INFO] 🎉 Agent execution complete in 3.7860348224639893 seconds
+2025-07-15 13:10:14,128 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:10:14,128 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:10:14,128 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:10:16,098 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:10:16,144 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:10:16,144 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:10:16,144 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:10:16,213 [INFO] ✨ Agent initialization complete
+2025-07-15 13:10:16,213 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:10:16,213 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:10:16,213 [INFO] 👣 Step 1/100
+2025-07-15 13:10:19,722 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:10:19,723 [INFO] 🎉 Agent execution complete in 5.594903945922852 seconds
+2025-07-15 13:14:33,780 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 13:14:33,781 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 13:14:33,781 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 13:14:35,113 [INFO] ✅ Created 1 new sessions
+2025-07-15 13:14:35,161 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 13:14:35,161 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 13:14:35,162 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 13:14:35,241 [INFO] ✨ Agent initialization complete
+2025-07-15 13:14:35,242 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 13:14:35,242 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 13:14:35,242 [INFO] 👣 Step 1/100
+2025-07-15 13:14:39,953 [INFO] ✅ Agent finished at step 1
+2025-07-15 13:14:39,953 [INFO] 🎉 Agent execution complete in 6.173402309417725 seconds
+2025-07-15 14:45:11,474 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 14:45:11,474 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 14:45:11,474 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 14:45:12,526 [INFO] ✅ Created 1 new sessions
+2025-07-15 14:45:12,576 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 14:45:12,576 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 14:45:12,576 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 14:45:12,669 [INFO] ✨ Agent initialization complete
+2025-07-15 14:45:12,669 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 14:45:12,669 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 14:45:12,669 [INFO] 👣 Step 1/100
+2025-07-15 14:45:16,588 [INFO] ✅ Agent finished at step 1
+2025-07-15 14:45:16,588 [INFO] 🎉 Agent execution complete in 5.114689111709595 seconds
+2025-07-15 15:38:32,715 [INFO] Specific details extracted
+2025-07-15 15:38:39,054 [INFO] Topic keyword generated
+2025-07-15 15:38:39,055 [INFO] Final output saved to combined_data1.json
+2025-07-15 15:38:55,176 [INFO] Final output saved to combined_data2.json
+2025-07-15 15:38:55,176 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 15:38:55,177 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 15:38:55,177 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 15:38:56,601 [INFO] ✅ Created 1 new sessions
+2025-07-15 15:38:56,661 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 15:38:56,662 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 15:38:56,662 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 15:38:56,752 [INFO] ✨ Agent initialization complete
+2025-07-15 15:38:56,753 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 15:38:56,753 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 15:38:56,753 [INFO] 👣 Step 1/100
+2025-07-15 15:38:59,122 [INFO] ✅ Agent finished at step 1
+2025-07-15 15:38:59,123 [INFO] 🎉 Agent execution complete in 3.9462966918945312 seconds
+2025-07-15 15:39:18,173 [INFO] Blog saved to FINAL_BLOG.json
