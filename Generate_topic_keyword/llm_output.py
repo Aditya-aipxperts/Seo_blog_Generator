@@ -1,6 +1,7 @@
 import asyncio
 import json
 import re
+from typing import Dict
 from setup_env import setup_environment, get_gemini_flash_model
 
 setup_environment()
@@ -9,8 +10,8 @@ llm = get_gemini_flash_model()
 from Generate_topic_keyword.ask_ai import keywords
 # from ask_ai import keywords
 
-async def generate_topic_keyword(transcript):
-
+async def generate_topic_keyword(state: Dict) -> Dict:
+    transcript = state.get("transcript") or ""
     extracted_data = await keywords(transcript,llm)
     print(extracted_data)
     extracted_data = extracted_data.strip()
@@ -25,11 +26,12 @@ async def generate_topic_keyword(transcript):
         extracted_data = extracted_data.split("```json")[1].split("```")[0]
 
     data = json.loads(extracted_data)
-    with open("extracted_keywords.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    # with open("extracted_keywords.json", "w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
     
+    state["extracted_keywords"] = data
     print("✅ Extracted details saved to extracted_keywords.json")
-    return data
+    return state
 
 
 # if __name__ == "__main__":

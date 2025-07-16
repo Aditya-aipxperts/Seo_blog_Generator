@@ -1,14 +1,15 @@
 import re
 import json
+from typing import Dict
 from setup_env import setup_environment, get_gemini_flash_model
 
 setup_environment()
 llm = get_gemini_flash_model()
 
-async def generate_customization_tips() -> str:
-    with open("combined_data1.json","r",encoding="utf-8") as f:
-        combined_data = json.load(f)
-
+async def generate_customization_tips(state: Dict) -> Dict:
+    # with open("combined_data1.json","r",encoding="utf-8") as f:
+    #     combined_data = json.load(f)
+    combined_data = state.get("combined_data_keyword_specific_details") or ""
     prompt = """
     Objective: Generate a detailed, actionable section focused on extracting and presenting customization tips based on the provided YouTube video transcript. This section should follow the step-by-step guide, seamlessly maintaining the structure, format, and writing style used in the earlier content.
 
@@ -180,6 +181,8 @@ async def generate_customization_tips() -> str:
         customization_tips = customization_tips.split("```json")[1].split("```")[0]
 
     data = json.loads(customization_tips)
-    with open("Customization_Tips.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    return data
+    # with open("Customization_Tips.json", "w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
+    
+    state["customization_tips"] = data
+    return state

@@ -1,5 +1,6 @@
 import json
 import re
+from typing import Dict
 import asyncio
 from setup_env import setup_environment, get_gemini_flash_model
 from mcp_use import MCPAgent, MCPClient
@@ -26,13 +27,15 @@ agent = MCPAgent(
             max_steps=100,
             verbose=True
         )
-async def domain_aligned(domain_url: str, transcript: str) -> str:
+async def domain_aligned(state: Dict) -> Dict:
+    domain_url= state.get("domain_url") or ""
+    transcript = state.get("transcript") or ""
     domain_data = {
         "domain_url": domain_url,
         "transcript": transcript
     }
-    with open ("combined_domain_transcript.json","w",encoding="utf-8") as f:
-        json.dump(domain_data,f, ensure_ascii=False, indent=4)
+    # with open ("combined_domain_transcript.json","w",encoding="utf-8") as f:
+    #     json.dump(domain_data,f, ensure_ascii=False, indent=4)
     
     combined_data = domain_data
     
@@ -99,9 +102,11 @@ async def domain_aligned(domain_url: str, transcript: str) -> str:
         llm_output = llm_output.split("```json")[1].split("```")[0]
 
     data = json.loads(llm_output)
-    with open("Domain_aligned_cta.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    return data
+    # with open("Domain_aligned_cta.json", "w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
+
+    state["domain_aligned_cta"] = data
+    return state
 
 
 

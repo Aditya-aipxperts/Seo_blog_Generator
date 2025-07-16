@@ -224,3 +224,21 @@
 2025-07-15 15:38:59,122 [INFO] ✅ Agent finished at step 1
 2025-07-15 15:38:59,123 [INFO] 🎉 Agent execution complete in 3.9462966918945312 seconds
 2025-07-15 15:39:18,173 [INFO] Blog saved to FINAL_BLOG.json
+2025-07-15 16:17:48,112 [INFO] Specific details extracted
+2025-07-15 16:18:01,419 [INFO] Topic keyword generated
+2025-07-15 16:18:01,419 [INFO] Final output saved to combined_data1.json
+2025-07-15 16:18:15,312 [INFO] Final output saved to combined_data2.json
+2025-07-15 16:18:15,312 [INFO] 🚀 Initializing MCP agent and connecting to services...
+2025-07-15 16:18:15,312 [INFO] 🔌 Found 0 existing sessions
+2025-07-15 16:18:15,313 [INFO] 🔄 No active sessions found, creating new ones...
+2025-07-15 16:18:16,845 [INFO] ✅ Created 1 new sessions
+2025-07-15 16:18:16,914 [INFO] 🛠️ Created 8 LangChain tools from client
+2025-07-15 16:18:16,914 [INFO] 🧰 Found 8 tools across all connectors
+2025-07-15 16:18:16,915 [INFO] 🧠 Agent ready with tools: firecrawl_scrape, firecrawl_map, firecrawl_crawl, firecrawl_check_crawl_status, firecrawl_search, firecrawl_extract, firecrawl_deep_research, firecrawl_generate_llmstxt
+2025-07-15 16:18:17,013 [INFO] ✨ Agent initialization complete
+2025-07-15 16:18:17,013 [INFO] 💬 Received query: '     You have two inputs:      1. YouTube Transcri...'
+2025-07-15 16:18:17,013 [INFO] 🏁 Starting agent execution with max_steps=100
+2025-07-15 16:18:17,014 [INFO] 👣 Step 1/100
+2025-07-15 16:18:19,652 [INFO] ✅ Agent finished at step 1
+2025-07-15 16:18:19,652 [INFO] 🎉 Agent execution complete in 4.340191841125488 seconds
+2025-07-15 16:18:31,737 [INFO] Blog saved to FINAL_BLOG.json

@@ -1,20 +1,22 @@
 import json
 import re
+from typing import Dict
 from setup_env import setup_environment,get_gemini_flash_model
 
 setup_environment()
 llm = get_gemini_flash_model()
 
-async def generate_guide() -> str:
-    with open("combined_data1.json","r",encoding="utf-8") as f:
-        combined_data = json.load(f)
-
+async def generate_guide(state: Dict) -> Dict:
+    combined_data = state.get("combined_data_keyword_specific_details")
+    # if not combined_data:
+    #     with open("combined_data1.json", "r", encoding="utf-8") as f:
+    #         combined_data = json.load(f)
     prompt = """
     Objective: Generate a comprehensive, actionable, and detailed step-by-step guide for creating a [specific task/topic] based on the provided YouTube video transcript. The guide should naturally integrate primary and secondary keywords, reflect the context and justification provided, and be structured with appropriate headings. Ensure that all content remains grounded in the transcript, with minor extrapolation allowed to enhance clarity, context, and user understanding.
 
     Instructions:
 
-    Purpose:
+    Purpose:    
 
 
 
@@ -251,6 +253,8 @@ async def generate_guide() -> str:
         Guide = Guide.split("```json")[1].split("```")[0]
 
     data = json.loads(Guide)
-    with open("Guide.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    return data
+    # with open("Guide.json", "w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
+
+    state["guide"]=data
+    return state

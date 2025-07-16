@@ -1,14 +1,15 @@
 import re
 import json
+from typing import Dict
 from setup_env import setup_environment, get_gemini_flash_model
 
 setup_environment()
 llm = get_gemini_flash_model()
 
-async def generate_cta() -> str:
-    with open("combined_data1.json","r",encoding="utf-8") as f:
-        combined_data = json.load(f)
-
+async def generate_cta(state: Dict) -> Dict:
+    # with open("combined_data1.json","r",encoding="utf-8") as f:
+    #     combined_data = json.load(f)
+    combined_data = state.get("combined_data_keyword_specific_details") or ""
     prompt = """
     Objective: Generate a compelling and action-oriented "Call to Action" (CTA) section that encourages the reader to engage further with the content. The CTA should be based on the provided YouTube video transcript and integrate primary and secondary keywords naturally. This section should focus on prompting the reader to take specific actions without including any general introductory content.
 
@@ -83,6 +84,8 @@ async def generate_cta() -> str:
         cta = cta.split("```json")[1].split("```")[0]
 
     data = json.loads(cta)
-    with open("CTA.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    return data
+    # with open("CTA.json", "w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
+    
+    state["cta"] = data
+    return state

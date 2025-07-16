@@ -1,4 +1,4 @@
-from Fetch_transcript.main import extract_channel_id, get_video_ids, get_transcript_with_backoff
+from Fetch_transcript.main import extract_video_id, get_transcript_with_backoff
 from Extract_Specific_Details.main import extract_specific_details
 from Generate_topic_keyword.llm_output import generate_topic_keyword
 from Generate_Intro.main import generate_intro, refine_intro
@@ -25,23 +25,21 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
+
 async def main():
-    channel_url = input("Enter the YouTube URL: ")
+    video_url = input("Enter the YouTube video URL: ")
     Domain_url = input("Enter your Domain URL: ")
     Raw_blog = input("Enter the raw blog: ")
     try:
-        channel_id = extract_channel_id(channel_url)
-        print(f"✅ Channel ID: {channel_id}")
-
-        videos = get_video_ids(channel_id, max_results=1)
-        print(f"📹 Found {len(videos)} videos")
-
-        for idx, video in enumerate(videos, start=1):
-            print(f"\n=== Transcript for Video {idx}: {video['title']} ===")
-            transcript = get_transcript_with_backoff(video["videoId"])
-            if not transcript or "Failed after multiple retries" in transcript:
-                print(f"⚠️  Transcript not available for: {video['title']}")
-            print("Transcript Fetched")  
+        video_id = extract_video_id(video_url)
+        print(f"✅ Video ID: {video_id}")
+        transcript = get_transcript_with_backoff(video_id)
+        if not transcript or "Failed after multiple retries" in transcript:
+            print(f"⚠️  Transcript not available for: {video_url}")
+        else:
+            print("Transcript Fetched")
+            print(transcript)
             print("------------------------------------------------------------")
     except Exception as e:
         print("❌ Error:", e)

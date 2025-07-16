@@ -2,16 +2,34 @@ from setup_env import setup_environment, get_gemini_flash_model
 import asyncio
 import json
 import re
+from typing import Dict
 
 setup_environment()
 llm = get_gemini_flash_model()
 
-async def rewrite_blog(raw_blog: str) -> str:
-    with open("Domain_aligned_cta.json","r") as f:
-        data = json.load(f)
+def load_json(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    data["raw_blog"]=raw_blog
-    
+async def rewrite_blog(state: Dict) -> Dict:
+    # data = {
+    #     "domain_aligned_cta": state.get("domain_aligned_cta"),
+    #     "introduction": state.get("refined_intro"),
+    #     "guide": state.get("guide"),
+    #     "customization_tips": state.get("customization_tips"),
+    #     "issue_troubleshoot": state.get("issue_troubleshoot"),
+    #     "conclusion": state.get("conclusion"),
+    #     "cta": state.get("cta"),
+    #     "raw_blog": state.get("raw_blog"),
+    #     "topic_keyword": state.get("extracted_keywords"),
+    #     "specific_details": state.get("extracted_section"),
+    # }
+    combined_data = {}
+    combined_data.update(state.get("combined_data_keyword_specific_details"))
+    combined_data.update(state.get("combined_data"))
+    combined_data.update(state.get("domain_aligned_cta"))
+    print("Merged combined_data for LLM:", json.dumps(combined_data, indent=2, ensure_ascii=False))
+    print("Data sent to LLM for final blog:", json.dumps(combined_data, indent=2, ensure_ascii=False))
     prompt = """
     Objective: Generate a comprehensive, cohesive, and detailed blog post using the provided key inputs. The blog should seamlessly integrate all sections while maintaining the depth, length, and clarity of the content.
 
@@ -118,7 +136,7 @@ async def rewrite_blog(raw_blog: str) -> str:
     }
 
     """
-    Full_prompt = f"{prompt}\n\n{data}"
+    Full_prompt = f"{prompt}\n\n{json.dumps(combined_data, indent=2, ensure_ascii=False)}"
     response = await llm.ainvoke(Full_prompt)
     Blog = response.content.strip()
     # print(Blog)
@@ -133,10 +151,11 @@ async def rewrite_blog(raw_blog: str) -> str:
         Blog = Blog.split("```json")[1].split("```")[0]
    
     data = json.loads(Blog)
-    with open ("FINAL_BLOG.json","w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    # with open ("FINAL_BLOG.json","w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
     
-    return data
+    state["final_blog"] = data
+    return state
 
 
 

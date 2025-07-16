@@ -1,14 +1,15 @@
 import json
 import re
+from typing import Dict
 from setup_env import setup_environment,get_gemini_flash_model
 
 setup_environment()
 llm = get_gemini_flash_model()
 
-async def generate_conclusion() -> str:
-    with open("combined_data1.json","r",encoding="utf-8") as f:
-        combined_data = json.load(f)
-
+async def generate_conclusion(state: Dict) -> Dict:
+    # with open("combined_data1.json","r",encoding="utf-8") as f:
+    #     combined_data = json.load(f)
+    combined_data = state.get("combined_data_keyword_specific_details") or ""
     prompt = """
     Objective: Generate a concise, impactful conclusion for a blog post about [specific task/topic]. The conclusion should summarize the key points discussed in the blog and reinforce the value of the content. This section should be based on the provided YouTube video transcript, with an emphasis on integrating primary and secondary keywords naturally. Avoid any unnecessary repetition or overly general content.
 
@@ -149,7 +150,7 @@ async def generate_conclusion() -> str:
         conclusion = conclusion.split("```json")[1].split("```")[0]
    
     data = json.loads(conclusion)
-    with open ("Conclusion.json","w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-    
-    return data
+    # with open ("Conclusion.json","w", encoding="utf-8") as f:
+    #     json.dump(data, f, indent=4, ensure_ascii=False)
+    state["conclusion"] = data
+    return state
